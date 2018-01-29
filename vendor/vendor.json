@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "pgR0imj8+6ztCkoQ6EFm/Ifk+Es=",
+			"path": "github.com/gorilla/websocket",
+			"revision": "91f589db023d66e4aba7112d44cc0d2fb091c553",
+			"revisionTime": "2018-01-25T18:51:21Z"
+		},
+		{
+			"checksumSHA1": "eDQ6f1EsNf+frcRO/9XukSEchm8=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "36e9d2ebbde5e3f13ab2e25625fd453271d6522e",
+			"revisionTime": "2018-01-03T17:44:51Z"
+		}
+	],
+	"rootPath": "github.com/kochman/websocket"
+}
