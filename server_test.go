@@ -22,6 +22,7 @@ func setUpServer(t *testing.T, h NewConnHandler) (*Server, *Conn, *websocket.Con
 		t.Fatalf("Cannot make websocket connection: %v", err)
 	}
 
+	// loop until the connection is recorded
 	numConnections := 0
 	for numConnections != 1 {
 		numConnections = len(s.Connections())
